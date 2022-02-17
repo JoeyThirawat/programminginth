@@ -26,7 +26,7 @@ int main(void)
             break;
         }
     }
-    //printf("\nnote_char = %d", note_char);
+
     if (note_char == 2)
         printf("All Capital Letter");
     else if (note_char == 1)
