@@ -26,7 +26,13 @@ int main(void)
             break;
         }
     }
-    printf("\nnote_char = %d", note_char);
+    //printf("\nnote_char = %d", note_char);
+    if (note_char == 2)
+        printf("All Capital Letter");
+    else if (note_char == 1)
+        printf("All Small Letter");
+    else
+        printf("Mix");
 
     return (0);
 }
