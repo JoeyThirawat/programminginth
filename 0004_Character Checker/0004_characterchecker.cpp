@@ -34,5 +34,5 @@ int main(void)
     else
         printf("Mix");
 
-        return 0;
+        return (0);
 }
